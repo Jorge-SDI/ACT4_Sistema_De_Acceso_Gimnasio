@@ -28,3 +28,4 @@ Proyecto que simula el control de acceso en los torniquetes de un gimnasio aplic
 * Usa `instanceof` para invocar `ingresarConInvitado()` en instancias de la Membresia Premium.
 
 ---
+###### Desarrollado por: `Jorge O. Salazar Díaz`
