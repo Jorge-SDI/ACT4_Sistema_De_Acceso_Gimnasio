@@ -1,17 +1,17 @@
 # Sistema de Control de Acceso a Gimnasio (POO Java)
 
-Proyecto que simula el control de acceso en los torniquetes de un gimnasio aplicando **Abstracción, Encapsulamiento, Herencia y Polimorfismo**[cite: 1].
+Proyecto que simula el control de acceso en los torniquetes de un gimnasio aplicando **Abstracción, Encapsulamiento, Herencia y Polimorfismo**.
 
 ---
 
-## 📋 Reglas del Negocio
+## Reglas del Negocio
 
-* **`MembresiaBasica`:** Visitas limitadas (ej. 10). Se resta 1 por acceso. Con 0 visitas restantes, se niega la entrada.
-* **`MembresiaPremium`:** Visitas ilimitadas para el titular. Cuenta con pases de invitado limitados; si se agotan, entra solo el titular.
+* `MembresiaBasica`: Visitas limitadas (ej. 10). Se resta 1 por acceso. Con 0 visitas restantes, se niega la entrada.
+* `MembresiaPremium`: Visitas ilimitadas para el titular. Cuenta con pases de invitado limitados; si se agotan, entra solo el titular.
 
 ---
 
-## 🛠️ Arquitectura
+## Arquitectura
 
 ### 1. Clase Abstracta Base (`Membresia`)
 * **Atributos protegidos:** `idMiembro` y `nombreUsuario` (`protected`).
@@ -29,3 +29,4 @@ Proyecto que simula el control de acceso en los torniquetes de un gimnasio aplic
 
 ---
 ###### Desarrollado por: `Jorge O. Salazar Díaz`
+> Diseño y Programación Orientada a Objetos
