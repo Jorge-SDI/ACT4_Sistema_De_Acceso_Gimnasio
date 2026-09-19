@@ -11,7 +11,7 @@ Proyecto que simula el control de acceso en los torniquetes de un gimnasio aplic
 
 ---
 
-## Arquitectura
+## Composición / Elementos del sistema
 
 ### 1. Clase Abstracta Base (`Membresia`)
 * **Atributos protegidos:** `idMiembro` y `nombreUsuario` (`protected`).
